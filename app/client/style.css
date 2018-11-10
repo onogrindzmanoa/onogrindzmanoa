@@ -1,0 +1,4 @@
+.digits-background-image {
+  background: url('/images/digits-background.png') no-repeat center center fixed;
+  background-size: cover;
+}
