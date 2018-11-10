@@ -10,8 +10,10 @@ class Footer extends React.Component {
           <div style={divStyle} className="ui center aligned container">
             <hr />
             OnoGrindzManoa
-            <a href="https://github.com/onogrindzmanoa"><Icon name='github' size='large'/></a><br/>
-            Making Food Choice Easier for the UH Community
+            <br/>
+            Making Food Choice Easier for the UH Community<br/>
+            Find Us on Github
+              <a href="https://github.com/onogrindzmanoa"><Icon inverted color='white' name='github' size='large'/></a><br/>
           </div>
         </footer>
     );

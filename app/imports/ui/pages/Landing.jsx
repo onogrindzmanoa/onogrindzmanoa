@@ -4,29 +4,29 @@ import { Grid, Icon, Header } from 'semantic-ui-react';
 /** A simple static component to render some text for the landing page. */
 class Landing extends React.Component {
   render() {
+    const contStyle = { paddingTop: '15px', paddingBottom: '15px' };
     return (
         <div className='grindz-background-image'>
-          <Grid container centered stackable columns={3}>
+          <Grid container centered stackable columns={3} style={contStyle}>
+
+            <Grid.Column textAlign='center'>
+              <Icon inverted name='food' size='huge'/>
+              <Header as='h1' inverted>Food</Header>
+              <Header as='h3' inverted>OnoGrindzManoa enables you to find vendors around campus and their menus so that you can make the food choices you want in a faster, easier way. It's all about making food choice easier for members of the University of Hawaii community.</Header>
+            </Grid.Column>
+
+            <Grid.Column textAlign='center'>
+              <Icon inverted name='search' size='huge'/>
+              <Header as='h1' inverted>Search</Header>
+              <Header as='h3' inverted>Using the search function, you can look for vendors that match your food preferences and offer the menus you want. It makes finding food faster and less stressful. You can also browse the list of vendors to find places you might want to try, and can view their menus, hours of operation, and other information.</Header>
+            </Grid.Column>
 
             <Grid.Column textAlign='center'>
               <Icon inverted name='users' size='huge'/>
-              <Header as='h1' inverted>Multiple Users</Header>
-              <Header as='h3' inverted>This address book enables any number of users to register and save their business
-                contacts. You can only see the contacts you have created</Header>
+              <Header as='h1' inverted>Users</Header>
+              <Header as='h3' inverted>With OnoGrindzManoa you can find other users who share your food preferences.</Header>
             </Grid.Column>
 
-            <Grid.Column textAlign='center'>
-              <Icon inverted name='file alternate' size='huge'/>
-              <Header as='h1' inverted>Contact Details</Header>
-              <Header as='h3' inverted>For each contact you can save their name, address, and phone number.</Header>
-            </Grid.Column>
-
-            <Grid.Column textAlign='center'>
-              <Icon inverted name='calendar check' size='huge'/>
-              <Header as='h1' inverted>Timestamped Notes</Header>
-              <Header as='h3' inverted>Each time you make contact with a contact, you can write a note that summarizes
-                that converstion. This note is saved along with a timestamp with the contact.</Header>
-            </Grid.Column>
           </Grid>
         </div>
 
