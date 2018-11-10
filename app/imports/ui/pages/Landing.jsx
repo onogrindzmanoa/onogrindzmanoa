@@ -12,19 +12,28 @@ class Landing extends React.Component {
             <Grid.Column textAlign='center'>
               <Icon inverted name='food' size='huge'/>
               <Header as='h1' inverted>Food</Header>
-              <Header as='h3' inverted>OnoGrindzManoa enables you to find vendors around campus and their menus so that you can make the food choices you want in a faster, easier way. It's all about making food choice easier for members of the University of Hawaii community.</Header>
+              <Header as='h3' inverted>OnoGrindzManoa enables you to find vendors around campus
+                and their menus so that you can make the food choices you want in a faster, easier way.
+                It is all about making food choice easier for members of the University of Hawaii community.</Header>
             </Grid.Column>
 
             <Grid.Column textAlign='center'>
               <Icon inverted name='search' size='huge'/>
               <Header as='h1' inverted>Search</Header>
-              <Header as='h3' inverted>Using the search function, you can look for vendors that match your food preferences and offer the menus you want. It makes finding food faster and less stressful. You can also browse the list of vendors to find places you might want to try, and can view their menus, hours of operation, and other information.</Header>
+              <Header as='h3' inverted>You can look for vendors that match
+                your food preferences and offer the menus you want.
+                It makes finding food faster and less stressful.
+                You can also browse the list of vendors to find places you
+                might want to try, and can view their menus, hours of operation, and other information.</Header>
             </Grid.Column>
 
             <Grid.Column textAlign='center'>
               <Icon inverted name='users' size='huge'/>
               <Header as='h1' inverted>Users</Header>
-              <Header as='h3' inverted>With OnoGrindzManoa you can find other users who share your food preferences.</Header>
+              <Header as='h3' inverted>With OnoGrindzManoa you can find other users
+                who share your food preferences. The app provides roles for users,
+                vendors, and administrators who have control over user permissions
+                and other aspects of the app.</Header>
             </Grid.Column>
 
           </Grid>

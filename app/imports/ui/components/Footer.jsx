@@ -13,7 +13,8 @@ class Footer extends React.Component {
             <br/>
             Making Food Choice Easier for the UH Community<br/>
             Find Us on Github
-              <a href="https://github.com/onogrindzmanoa"><Icon inverted color='white' name='github' size='large'/></a><br/>
+              <a href="https://github.com/onogrindzmanoa">
+                <Icon inverted color='white' name='github' size='large'/></a><br/>
           </div>
         </footer>
     );
