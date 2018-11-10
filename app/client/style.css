@@ -1,4 +1,5 @@
-.digits-background-image {
-  background: url('/images/digits-background.png') no-repeat center center fixed;
+.grindz-background-image {
+  background: url('/images/onogrindz-background.jpg') no-repeat center center fixed;
   background-size: cover;
+  color: white;
 }

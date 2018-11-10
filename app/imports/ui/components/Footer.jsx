@@ -1,4 +1,5 @@
 import React from 'react';
+import { Icon } from 'semantic-ui-react';
 
 /** The Footer appears at the bottom of every page. Rendered by the App Layout component. */
 class Footer extends React.Component {
@@ -8,9 +9,9 @@ class Footer extends React.Component {
         <footer>
           <div style={divStyle} className="ui center aligned container">
             <hr />
-              Department of Information and Computer Sciences <br />
-              University of Hawaii<br />
-              Honolulu, HI 96822
+            OnoGrindzManoa
+            <a href="https://github.com/onogrindzmanoa"><Icon name='github' size='large'/></a><br/>
+            Making Food Choice Easier for the UH Community
           </div>
         </footer>
     );
