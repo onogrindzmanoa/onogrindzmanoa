@@ -47,11 +47,11 @@ class AddVendor extends React.Component {
             <AutoForm ref={(ref) => { this.formRef = ref; }} schema={VendorSchema} onSubmit={this.submit}>
               <Segment>
                 <TextField name='name' placeholder='Aja Sushi & Bento'/>
-                <TextField name='hours'/>
+                <TextField name='hours' placeholder='8:00am - 2:00pm'/>
                 <TextField name='location' placeholder='Campus Center Food Court'/>
-                <TextField name='image' placeholder='example.com/url/'/>
-                <LongTextField name='description' placeholder='Japanese bentos/bowls'/>
-                <LongTextField name='menu'/>
+                <TextField name='image' placeholder='https://linktoimage.com/url/example.png'/>
+                <LongTextField name='description' placeholder='Japanese Bentos & Bowls'/>
+                <LongTextField name='menu' placeholder='Teriyaki Salmon Bowl: $5.25'/>
                 <SubmitField value='Submit'/>
                 <ErrorsField/>
                 <HiddenField name='owner' value='fakeuser@foo.com'/>
