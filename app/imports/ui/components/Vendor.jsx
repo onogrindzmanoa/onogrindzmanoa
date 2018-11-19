@@ -11,13 +11,15 @@ class Vendor extends React.Component {
     return (
         <Card centered>
           <Card.Content>
-            <Image floated='right' size='mini' src={this.props.vendor.image} />
+            <Image floated='right' size='small' src={this.props.vendor.image} />
             <Card.Header> {this.props.vendor.name} </Card.Header>
+            <Card.Description>Hours</Card.Description>
             <Card.Meta>{this.props.vendor.hours}</Card.Meta>
+            <Card.Description>Location</Card.Description>
             <Card.Meta>{this.props.vendor.location}</Card.Meta>
-            <Card.Description>
-              {this.props.vendor.description}
-            </Card.Description>
+            <Card.Description>Description</Card.Description>
+            <Card.Meta>{this.props.vendor.description}</Card.Meta>
+            <Card.Description>Menu</Card.Description>
             <Card.Meta>{this.props.vendor.menu}</Card.Meta>
           </Card.Content>
           <Card.Content extra>
