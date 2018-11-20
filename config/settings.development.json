@@ -41,9 +41,9 @@
   "defaultVendors": [
     {
       "name": "Bale",
-      "hours": "10:00am - 8:00pm",
+      "hours": "Monday-Thursday: 10:00am - 8:00pm, Friday: 10:00am - 9:00pm, Saturday-Sunday: closed",
       "location": "outside of sinclair library",
-      "image": "example.png" ,
+      "image": "https://s3-media2.fl.yelpcdn.com/bphoto/Xtzgq8WqKR9O_xaXIduP6w/o.jpg" ,
       "description": "Vietnamese cafe",
       "menu": "add menu items?" ,
       "owner": "john@foo.com"
