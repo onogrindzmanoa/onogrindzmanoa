@@ -11,7 +11,7 @@ class Vendor extends React.Component {
     return (
         <Card centered>
           <Card.Content>
-            <Image floated='right' size='small' src={this.props.vendor.image} />
+            <Image floated='right' size='tiny' src={this.props.vendor.image} />
             <Card.Header> {this.props.vendor.name} </Card.Header>
             <Card.Description>Hours</Card.Description>
             <Card.Meta>{this.props.vendor.hours}</Card.Meta>

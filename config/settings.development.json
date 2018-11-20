@@ -41,7 +41,7 @@
   "defaultVendors": [
     {
       "name": "Bale",
-      "hours": "Monday-Thursday: 10:00am - 8:00pm, Friday: 10:00am - 9:00pm, Saturday-Sunday: closed",
+      "hours": "Monday-Thursday 10:00am - 8:00pm, Friday 10:00am - 9:00pm, Saturday-Sunday closed",
       "location": "outside of sinclair library",
       "image": "https://s3-media2.fl.yelpcdn.com/bphoto/Xtzgq8WqKR9O_xaXIduP6w/o.jpg" ,
       "description": "Vietnamese cafe",
@@ -55,6 +55,15 @@
       "image": "example.png" ,
       "description": "local japanese bento/bowl",
       "menu": "add menu items?" ,
+      "owner": "admin@foo.com"
+    },
+    {
+      "name": "L&L Hawaiian Barbecue",
+      "hours": "Monday-Friday 7:00am - 4:30pm",
+      "location": "Athletic Complex, 2nd Floor & Paradise Palms Café",
+      "image": "http://manoa.hawaii.edu/food/index_files/stacks_image_75.png" ,
+      "description": "Delicious local and Asian-American fusion cuisine served in big portions at reasonable prices! Try delicious L&L favorites like the Hawaiian Barbecue beef, chicken, or short ribs! Enjoy L&L's famous fried chicken katsu, the best in town! Grab-and-go, breakfast items and party packs for groups also available.",
+      "menu": "BBQ Chicken",
       "owner": "admin@foo.com"
     }
   ]
