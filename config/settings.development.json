@@ -40,21 +40,21 @@
 
   "defaultVendors": [
     {
-      "name": "Bale",
-      "hours": "Monday-Thursday 10:00am - 8:00pm, Friday 10:00am - 9:00pm, Saturday-Sunday closed",
-      "location": "outside of sinclair library",
-      "image": "https://s3-media2.fl.yelpcdn.com/bphoto/Xtzgq8WqKR9O_xaXIduP6w/o.jpg" ,
-      "description": "Vietnamese cafe",
-      "menu": "add menu items?" ,
+      "name": "Da Spot",
+      "hours": "Monday-Friday 10:00am - 2:00pm",
+      "location": "Sustainability Courtyard & Saunders Hall",
+      "image": "http://manoa.hawaii.edu/food/resources/images/daSpotSideLogo3.png" ,
+      "description": "Health Foods & Juices",
+      "menu": "http://manoa.hawaii.edu/food/daSpot.php" ,
       "owner": "john@foo.com"
     },
     {
-      "name": "Aja",
-      "hours": "8:00am - 2:00pm",
-      "location": "campus center",
-      "image": "example.png" ,
-      "description": "local japanese bento/bowl",
-      "menu": "add menu items?" ,
+      "name": "Dunkin’ Donuts",
+      "hours": "Monday-Friday 7:00am - 5:00pm",
+      "location": "Paradise Palms Cafe",
+      "image": "http://manoa.hawaii.edu/food/resources/images/DunkinDonutLogoSized.png" ,
+      "description": "High-quality beverage offerings, donuts, bakery goods, sandwiches and more.",
+      "menu": "http://manoa.hawaii.edu/food/dunkindonuts.php" ,
       "owner": "admin@foo.com"
     },
     {
@@ -63,7 +63,34 @@
       "location": "Athletic Complex, 2nd Floor & Paradise Palms Café",
       "image": "http://manoa.hawaii.edu/food/index_files/stacks_image_75.png" ,
       "description": "Delicious local and Asian-American fusion cuisine served in big portions at reasonable prices!",
-      "menu": "BBQ Chicken",
+      "menu": "http://manoa.hawaii.edu/food/LandL.php",
+      "owner": "admin@foo.com"
+    },
+    {
+      "name": "Lasoon",
+      "hours": "Monday-Friday 10:30am - 4:30pm",
+      "location": "Paradise Palms Café",
+      "image": "http://manoa.hawaii.edu/food/resources/images/lasoonSideLogo.png" ,
+      "description": "Lasoon offers something for everyone with their signature exotic South Indian and Malaysian cuisine.",
+      "menu": "http://manoa.hawaii.edu/food/lasoon.php",
+      "owner": "admin@foo.com"
+    },
+    {
+      "name": "Panda Express",
+      "hours": "Monday-Friday 10:30am - 4:30pm",
+      "location": "Paradise Palms Café",
+      "image": "http://manoa.hawaii.edu/food/resources/images/pandaExpressSideLogo.png" ,
+      "description": "Chinese food made with only the freshest ingredients.",
+      "menu": "http://manoa.hawaii.edu/food/pandaExpress.php",
+      "owner": "admin@foo.com"
+    },
+    {
+      "name": "Hot Tacos",
+      "hours": "Monday-Friday 10:00am - 2:00pm",
+      "location": "Krauss Hall",
+      "image": "http://manoa.hawaii.edu/food/resources/images/hotTacosSideLogo.png" ,
+      "description": "Authentic Mexican food, prepped and cooked daily from scratch offering tacos, burritos, and quesadillas.",
+      "menu": "http://manoa.hawaii.edu/food/hotTacos.php",
       "owner": "admin@foo.com"
     }
   ]
