@@ -7,7 +7,7 @@ class Landing extends React.Component {
     const contStyle = { paddingTop: '15px', paddingBottom: '15px' };
     return (
         <div className='grindz-background-image'>
-          <Grid container centered stackable columns={3} style={contStyle}>
+          <Grid container centered stackable columns={2} style={contStyle}>
 
             <Grid.Column textAlign='center'>
               <Icon inverted name='food' size='huge'/>
@@ -26,16 +26,6 @@ class Landing extends React.Component {
                 You can also browse the list of vendors to find places you
                 might want to try, and can view their menus, hours of operation, and other information.</Header>
             </Grid.Column>
-
-            <Grid.Column textAlign='center'>
-              <Icon inverted name='users' size='huge'/>
-              <Header as='h1' inverted>Users</Header>
-              <Header as='h3' inverted>With OnoGrindzManoa you can find other users
-                who share your food preferences. The app provides roles for users,
-                vendors, and administrators who have control over user permissions
-                and other aspects of the app.</Header>
-            </Grid.Column>
-
           </Grid>
         </div>
 

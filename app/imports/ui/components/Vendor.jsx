@@ -20,7 +20,9 @@ class Vendor extends React.Component {
             <Card.Description>Description</Card.Description>
             <Card.Meta>{this.props.vendor.description}</Card.Meta>
             <Card.Description>Menu</Card.Description>
-            <Card.Meta>{this.props.vendor.menu}</Card.Meta>
+            <Card.Meta>
+              <a href={this.props.vendor.menu}>Link to menu</a>
+            </Card.Meta>
           </Card.Content>
           <Card.Content extra>
             <Link to={`/edit/${this.props.vendor._id}`}>Edit</Link>

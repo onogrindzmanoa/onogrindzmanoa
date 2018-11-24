@@ -43,15 +43,15 @@ class AddVendor extends React.Component {
     return (
         <Grid container centered>
           <Grid.Column>
-            <Header as="h2" textAlign="center" inverted>Add Vendor</Header>
+            <Header as="h2" textAlign="center" inverted>Add New Vendor</Header>
             <AutoForm ref={(ref) => { this.formRef = ref; }} schema={VendorSchema} onSubmit={this.submit}>
               <Segment>
-                <TextField name='name' placeholder='Aja Sushi & Bento'/>
-                <TextField name='hours' placeholder='8:00am - 2:00pm'/>
-                <TextField name='location' placeholder='Campus Center Food Court'/>
-                <TextField name='image' placeholder='https://linktoimage.com/url/example.png'/>
-                <TextField name='description' placeholder='Japanese Bentos & Bowls'/>
-                <LongTextField name='menu' placeholder='Teriyaki Salmon Bowl: $5.25'/>
+                <TextField name='name' placeholder='Vendor name'/>
+                <TextField name='hours' placeholder='Days and hours of operation'/>
+                <TextField name='location' placeholder='Vendor location'/>
+                <TextField name='image' placeholder='Link to vendor logo'/>
+                <TextField name='description' placeholder='Description'/>
+                <LongTextField name='menu' placeholder='Link to vendor menu'/>
                 <SubmitField value='Submit'/>
                 <ErrorsField/>
                 <HiddenField name='owner' value='fakeuser@foo.com'/>
