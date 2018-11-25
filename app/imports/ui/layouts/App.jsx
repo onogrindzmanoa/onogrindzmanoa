@@ -8,6 +8,7 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Landing from '../pages/Landing';
 import ListVendors from '../pages/ListVendors';
+import SearchBar from '../components/search-bar';
 /** import ListContacts from '../pages/ListContacts';
 import ListContactsAdmin from '../pages/ListContactsAdmin';
 import AddContact from '../pages/AddContact';
@@ -29,6 +30,7 @@ class App extends React.Component {
               <Route exact path="/" component={Landing}/>
               <Route path="/signin" component={Signin}/>
               <Route path="/signup" component={Signup}/>
+              <Route path="/search" component={SearchBar}/>
               <ProtectedRoute path="/add" component={AddVendor}/>
               <ProtectedRoute path="/list" component={ListVendors}/>
               {/* <ProtectedRoute path="/list" component={ListContacts}/>
