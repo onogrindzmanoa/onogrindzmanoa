@@ -23,10 +23,8 @@ class Maps extends React.Component {
               </Header>
               </Grid.Column>
             </Grid>
-            <Image floated='center'
-                   src='http://manoa.hawaii.edu/food/resources/images/maps/locationsUpperCampusMap.png' centered/>
-            <Image floated='center'
-                   src='http://manoa.hawaii.edu/food/resources/images/maps/locationsLowerCampusMap.png' centered/>
+            <Image src='http://manoa.hawaii.edu/food/resources/images/maps/locationsUpperCampusMap.png' centered/>
+            <Image src='http://manoa.hawaii.edu/food/resources/images/maps/locationsLowerCampusMap.png' centered/>
           </Grid>
         </Header>
     );
