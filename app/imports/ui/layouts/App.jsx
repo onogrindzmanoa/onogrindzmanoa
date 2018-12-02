@@ -14,6 +14,7 @@ import EditVendor from '../pages/EditVendor';
  import AddContact from '../pages/AddContact';
  import EditContact from '../pages/EditContact'; */
 import AddVendor from '../pages/AddVendor';
+import Maps from '../pages/Maps';
 import NotFound from '../pages/NotFound';
 import Signin from '../pages/Signin';
 import Signup from '../pages/Signup';
@@ -34,6 +35,7 @@ class App extends React.Component {
               <Route path="/search" component={Search}/>
               <ProtectedRoute path="/add" component={AddVendor}/>
               <Route path="/list" component={ListVendors}/>
+              <Route path="/maps" component={Maps}/>
               <ProtectedRoute path="/edit/:_id" component={EditVendor}/>
               {/* <ProtectedRoute path="/list" component={ListContacts}/>
               <ProtectedRoute path="/add" component={AddContact}/>
