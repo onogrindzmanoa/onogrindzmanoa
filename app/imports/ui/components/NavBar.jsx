@@ -12,7 +12,8 @@ class NavBar extends React.Component {
     const menuStyle = { marginBottom: '10px', backgroundColor: '#024731' };
     return (
         <Menu style={menuStyle} attached="top" borderless inverted>
-          <Menu.Item><Image floated='right' size='medium' src='/images/onogrindzmanoa-logo.png'/></Menu.Item>
+          <Menu.Item as={NavLink} activeClassName="" exact to="/">
+            <Image floated='left' size='small' src='/images/onogrindzmanoa-logo.png'/></Menu.Item>
           <Menu.Item as={NavLink} activeClassName="active" exact to="/list" key='list'>Vendors</Menu.Item>
           <Menu.Item as={NavLink} activeClassName="active" exact to="/search" key='search'>Search
             Vendors</Menu.Item>
