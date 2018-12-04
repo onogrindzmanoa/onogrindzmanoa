@@ -53,7 +53,7 @@ class EditVendor extends React.Component {
   }
 }
 
-/** Require the presence of a Contact document in the props object. Uniforms adds 'model' to the props, which we use. */
+/** Require the presence of a Vendor document in the props object. Uniforms adds 'model' to the props, which we use. */
 EditVendor.propTypes = {
   doc: PropTypes.object,
   model: PropTypes.object,
@@ -64,7 +64,7 @@ EditVendor.propTypes = {
 export default withTracker(({ match }) => {
   // Get the documentID from the URL field. See imports/ui/layouts/App.jsx for the route containing :_id.
   const documentId = match.params._id;
-  // Get access to Contact documents.
+  // Get access to Vendor documents.
   const subscription = Meteor.subscribe('Vendors');
   return {
     doc: Vendors.findOne(documentId),

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Header, Image } from 'semantic-ui-react';
 
-/** Render a Not Found page if the user enters a URL that doesn't match any route. */
+/** Render a Maps page displaying locations of vendors. */
 class Maps extends React.Component {
   render() {
     const contStyle = { paddingRight: '200px', paddingLeft: '200px' };

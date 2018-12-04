@@ -38,7 +38,7 @@ class AddVendor extends React.Component {
     Vendors.insert({ name, hours, location, image, description, menu, owner }, this.insertCallback);
   }
 
-  /** Render the form. Use Uniforms: https://github.com/vazco/uniforms */
+  /** Render the form. */
   render() {
     return (
         <Grid container centered>
