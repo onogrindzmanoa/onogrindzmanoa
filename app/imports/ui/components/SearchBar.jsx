@@ -1,13 +1,12 @@
 import _ from 'lodash';
-import faker from 'faker';
 import React, { Component } from 'react';
-import { Search, Grid, Header, Segment } from 'semantic-ui-react';
+import { Search } from 'semantic-ui-react';
 
-const source = _.times(5, () => ({
-  title: faker.company.companyName(),
-  description: faker.company.catchPhrase(),
-  image: faker.internet.avatar(),
-  price: faker.finance.amount(0, 100, 2, '$'),
+const source = _.times(1, () => ({
+  name: 'Bale',
+  hours: '10am - 8pm',
+  location: 'Outside of Sinclair Library',
+  description: 'Vietnamese Cafe',
 }));
 
 export default class SearchExampleStandard extends Component {
@@ -39,26 +38,14 @@ export default class SearchExampleStandard extends Component {
     const { isLoading, value, results } = this.state;
 
     return (
-        <Grid>
-          <Grid.Column width={6}>
-            <Search
-                loading={isLoading}
-                onResultSelect={this.handleResultSelect}
-                onSearchChange={_.debounce(this.handleSearchChange, 500, { leading: true })}
-                results={results}
-                value={value}
-                {...this.props}
-            />
-          </Grid.Column>
-          <Grid.Column width={10}>
-            <Segment>
-              <Header>State</Header>
-              <pre style={{ overflowX: 'auto' }}>{JSON.stringify(this.state, null, 2)}</pre>
-              <Header>Options</Header>
-              <pre style={{ overflowX: 'auto' }}>{JSON.stringify(source, null, 2)}</pre>
-            </Segment>
-          </Grid.Column>
-        </Grid>
+          <Search
+              loading={isLoading}
+              onResultSelect={this.handleResultSelect}
+              onSearchChange={_.debounce(this.handleSearchChange, 500, { leading: true })}
+              results={results}
+              value={value}
+              {...this.props}
+          />
     );
   }
 }

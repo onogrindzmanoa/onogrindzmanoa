@@ -1,8 +1,6 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
 import { Search, Grid, Header, Segment } from 'semantic-ui-react';
-import Vendor from '../components/Vendor';
-// import { Vendors } from '/imports/api/vendor/vendor';
 
 const source = _.times(1, () => ({
   name: 'Bale',
@@ -41,7 +39,6 @@ export default class SearchExampleStandard extends Component {
 
     return (
         <Grid>
-          <Grid.Column width={6}>
             <Search
                 loading={isLoading}
                 onResultSelect={this.handleResultSelect}
@@ -50,15 +47,6 @@ export default class SearchExampleStandard extends Component {
                 value={value}
                 {...this.props}
             />
-          </Grid.Column>
-          <Grid.Column width={10}>
-            <Segment>
-              <Header>State</Header>
-              <pre style={{ overflowX: 'auto' }}>{JSON.stringify(this.state, null, 2)}</pre>
-              <Header>Options</Header>
-              <pre style={{ overflowX: 'auto' }}>{JSON.stringify(source, null, 2)}</pre>
-            </Segment>
-          </Grid.Column>
         </Grid>
     );
   }
