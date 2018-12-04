@@ -9,10 +9,6 @@ import Footer from '../components/Footer';
 import Landing from '../pages/Landing';
 import ListVendors from '../pages/ListVendors';
 import EditVendor from '../pages/EditVendor';
-/** import ListContacts from '../pages/ListContacts';
- import ListContactsAdmin from '../pages/ListContactsAdmin';
- import AddContact from '../pages/AddContact';
- import EditContact from '../pages/EditContact'; */
 import AddVendor from '../pages/AddVendor';
 import Maps from '../pages/Maps';
 import NotFound from '../pages/NotFound';
