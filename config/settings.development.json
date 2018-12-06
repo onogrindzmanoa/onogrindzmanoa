@@ -6,6 +6,11 @@
       "role": "admin"
     },
     {
+      "email": "user@foo.com",
+      "password": "changeme",
+      "role": "user"
+    },
+    {
       "email": "john@foo.com",
       "password": "changeme"
     }
