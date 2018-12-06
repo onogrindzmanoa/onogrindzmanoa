@@ -9,10 +9,10 @@ import Footer from '../components/Footer';
 import Landing from '../pages/Landing';
 import ListVendors from '../pages/ListVendors';
 import EditVendor from '../pages/EditVendor';
-/** import ListContacts from '../pages/ListContacts';
+ import ListContacts from '../pages/ListContacts';
  import ListContactsAdmin from '../pages/ListContactsAdmin';
  import AddContact from '../pages/AddContact';
- import EditContact from '../pages/EditContact'; */
+ import EditContact from '../pages/EditContact';
 import AddVendor from '../pages/AddVendor';
 import NotFound from '../pages/NotFound';
 import Signin from '../pages/Signin';
@@ -35,10 +35,10 @@ class App extends React.Component {
               <ProtectedRoute path="/add" component={AddVendor}/>
               <Route path="/list" component={ListVendors}/>
               <ProtectedRoute path="/edit/:_id" component={EditVendor}/>
-              {/* <ProtectedRoute path="/list" component={ListContacts}/>
-              <ProtectedRoute path="/add" component={AddContact}/>
-              <ProtectedRoute path="/edit/:_id" component={EditContact}/>
-              <AdminProtectedRoute path="/admin" component={ListContactsAdmin}/> */}
+              <ProtectedRoute path="/profile" component={ListContacts}/>
+              /* <ProtectedRoute path="/add" component={AddContact}/>
+              <ProtectedRoute path="/profile/:_id" component={EditContact}/>
+              <AdminProtectedRoute path="/admin" component={ListContactsAdmin}/> */
               <ProtectedRoute path="/signout" component={Signout}/>
               <Route component={NotFound}/>
             </Switch>
