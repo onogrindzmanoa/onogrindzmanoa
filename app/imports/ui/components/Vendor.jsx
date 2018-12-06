@@ -2,8 +2,6 @@ import React from 'react';
 import { Card, Image /* , Feed */ } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import { withRouter, Link } from 'react-router-dom';
-/* import Note from '/imports/ui/components/Note';
-import AddNote from '/imports/ui/components/AddNote'; */
 
 /** Renders a single row in the List Stuff table. See pages/ListStuff.jsx. */
 class Vendor extends React.Component {

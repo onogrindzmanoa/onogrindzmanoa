@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon } from 'semantic-ui-react';
 
-/** The Footer appears at the bottom of every page. Rendered by the App Layout component. */
+/** Footer leading to the Github Page, also includes a nice note. */
 class Footer extends React.Component {
   render() {
     const divStyle = { paddingTop: '15px', color: 'white' };

@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
-import { Search, Grid, Header, Segment } from 'semantic-ui-react';
+import { Search, Grid } from 'semantic-ui-react';
 
 const source = _.times(1, () => ({
   name: 'Bale',
@@ -8,7 +8,9 @@ const source = _.times(1, () => ({
   location: 'Outside of Sinclair Library',
   description: 'Vietnamese Cafe',
 }));
-
+/**
+ * Search Page for OnoGrindzManoa, not implemented but kept for future use and implementation
+ */
 export default class SearchExampleStandard extends Component {
   componentWillMount() {
     this.resetComponent();
@@ -39,14 +41,14 @@ export default class SearchExampleStandard extends Component {
 
     return (
         <Grid>
-            <Search
-                loading={isLoading}
-                onResultSelect={this.handleResultSelect}
-                onSearchChange={_.debounce(this.handleSearchChange, 500, { leading: true })}
-                results={results}
-                value={value}
-                {...this.props}
-            />
+          <Search
+              loading={isLoading}
+              onResultSelect={this.handleResultSelect}
+              onSearchChange={_.debounce(this.handleSearchChange, 500, { leading: true })}
+              results={results}
+              value={value}
+              {...this.props}
+          />
         </Grid>
     );
   }

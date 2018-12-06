@@ -2,6 +2,9 @@ import _ from 'lodash';
 import React, { Component } from 'react';
 import { Search } from 'semantic-ui-react';
 
+/**
+ * This Search Bar is the component that appears at the top of the landing page.
+ */
 const source = _.times(1, () => ({
   name: 'Bale',
   hours: '10am - 8pm',
@@ -38,14 +41,14 @@ export default class SearchExampleStandard extends Component {
     const { isLoading, value, results } = this.state;
 
     return (
-          <Search
-              loading={isLoading}
-              onResultSelect={this.handleResultSelect}
-              onSearchChange={_.debounce(this.handleSearchChange, 500, { leading: true })}
-              results={results}
-              value={value}
-              {...this.props}
-          />
+        <Search
+            loading={isLoading}
+            onResultSelect={this.handleResultSelect}
+            onSearchChange={_.debounce(this.handleSearchChange, 500, { leading: true })}
+            results={results}
+            value={value}
+            {...this.props}
+        />
     );
   }
 }

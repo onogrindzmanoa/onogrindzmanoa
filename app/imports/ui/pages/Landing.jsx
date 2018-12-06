@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Icon, Header } from 'semantic-ui-react';
 
-/** A simple static component to render some text for the landing page. */
+/** Landing Page for OnoGrindzManoa. Links to pages and SignIn/SignUp */
 class Landing extends React.Component {
   render() {
     const contStyle = { paddingTop: '15px', paddingBottom: '15px' };

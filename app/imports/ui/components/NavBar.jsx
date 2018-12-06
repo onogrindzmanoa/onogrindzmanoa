@@ -6,7 +6,7 @@ import { withRouter, NavLink } from 'react-router-dom';
 import { Menu, Dropdown, Image, Search } from 'semantic-ui-react';
 import { Roles } from 'meteor/alanning:roles';
 
-/** The NavBar appears at the top of every page. Rendered by the App Layout component. */
+/** Contains all the links for the pages, logo made by Christian Cheshire */
 class NavBar extends React.Component {
   render() {
     const menuStyle = { marginBottom: '10px', backgroundColor: '#024731' };
