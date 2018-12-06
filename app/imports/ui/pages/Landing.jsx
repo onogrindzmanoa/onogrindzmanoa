@@ -26,6 +26,19 @@ class Landing extends React.Component {
                 You can also browse the list of vendors to find places you
                 might want to try, and can view their menus, hours of operation, and other information.</Header>
             </Grid.Column>
+            <Grid.Column textAlign='center'>
+              <Icon inverted name='info' size='huge'/>
+              <Header as='h1' inverted>Information</Header>
+              <Header as='h3' inverted>Forget checking back and forth for your favorite food items to finally arrive.
+                Along with vendor locations, find vendor information regarding upcoming specials,
+                promotions and prices.</Header>
+            </Grid.Column>
+            <Grid.Column textAlign='center'>
+              <Icon inverted name='map marker alternate' size='huge'/>
+              <Header as='h1' inverted>Maps</Header>
+              <Header as='h3' inverted>Stop hunting for food! Maps will provide the location for each vendor. Click on
+                Locations to see more.</Header>
+            </Grid.Column>
           </Grid>
         </div>
 
